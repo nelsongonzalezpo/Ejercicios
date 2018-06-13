@@ -24,22 +24,21 @@ function palindrome(str) {
 
 //Segunda Solucion
 
-// var esPalin = false;
-//
-// let reversed = '';
-//
-// for(var letra of str){
-//   reversed = letra + reversed;
-// }
-//
-// if(reversed == str){
-//   esPalin = true;
-// }
-//
-//
-// return esPalin;
+var esPalin = false;
 
-//Tercera Solucion
+let reversed = '';
+
+for(var letra of str){
+  reversed = letra + reversed;
+}
+
+if(reversed == str){
+  esPalin = true;
+}
+
+
+return esPalin;
+
 
 
 
