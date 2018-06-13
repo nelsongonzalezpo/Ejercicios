@@ -9,16 +9,38 @@
 
 function palindrome(str) {
 
-  esPalin = false;
-  const arr = str.split('');
-  volteado = arr.reverse().join('');
+//Primera Solucion
 
-  if(str === volteado)
-  {
-    esPalin = true;
-    return esPalin;
+// var esPalin = false;
+//
+// var nueva = str.split('').reverse().join('');
+//
+// if(nueva == str){
+//   esPalin = true;
+// }
+//
+// return esPalin;
 
-  }
+
+//Segunda Solucion
+
+// var esPalin = false;
+//
+// let reversed = '';
+//
+// for(var letra of str){
+//   reversed = letra + reversed;
+// }
+//
+// if(reversed == str){
+//   esPalin = true;
+// }
+//
+//
+// return esPalin;
+
+//Tercera Solucion
+
 
 
 
