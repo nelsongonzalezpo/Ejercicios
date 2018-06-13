@@ -12,9 +12,6 @@ function reverse(str)
 nuevo = str.split("");
 return nuevo.reverse().join("");
 
-
-
-
 }
 module.exports = reverse;
 
