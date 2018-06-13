@@ -39,11 +39,18 @@ if(reversed == str){
 
 return esPalin;
 
-
-
-
-
 }
+
+//Tercera Solucion
+//Nueva solucion (Comparaciones secuenciales, primero con ultima, etc)
+
+// return str.split('').every((char, i) => {
+//
+//   return chr === str[str.length -i -1];
+// });
+//
+//
+// }
 
 
 
