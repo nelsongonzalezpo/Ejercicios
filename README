@@ -3,3 +3,14 @@ Este es un repositorio con algunas de las respuestas de las preguntas "Cracking 
 Estas respuestas estan en JavaScript y existen diferentes soluciones para cada problema.
 
 Este repositorio esta hecho por Nelson Gonzalez.
+
+Recomendaciones:
+
+- Clonar este repositorio o el original.
+- Descargar JEST para realizar las pruebas.
+- Utilizar JEST. Ejemplo: jest anagrams/test.js --watch
+- Todas las solucinoes deben ir en index.js
+
+Explicacion:
+
+--watch = Modo visualizacion, explica los errores.
