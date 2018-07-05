@@ -10,20 +10,37 @@
 
 function chunk(array, size) {
 
-  const chunked = [];
+//Solution 1
 
-  for (let element of array){
-    const last = chunked[chunked.length -1];
+  // const chunked = [];
+  //
+  // for (let element of array){
+  //   const last = chunked[chunked.length -1];
+  //
+  //   if(!last || last.length === size){
+  //     chunked.push([element]);
+  //   }
+  //
+  //   else{
+  //     last.push(element);
+  //   }
+  // }
+  // return chunked;
 
-    if(!last || last.length === size){
-      chunked.push([element]);
-    }
+//Solution 2
+//Slice function
 
-    else{
-      last.push(element);
-    }
-  }
-  return chunked;
+const chunked = [];
+let index = 0;
+
+while(index < array.length){
+  chunked.push(array.slice(index, index + size));
+  index += size;
+}
+
+return chunked;
+
+
 }
 
 module.exports = chunk;
